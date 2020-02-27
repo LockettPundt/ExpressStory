@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>${title}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles/story1.css">
+    </head>
+    <body>
+        <main id="container" class="container">
+            <div class="img-wrapper">
+                <img src="./images/shadow.jpg">
+            </div>
+            <section class="textandnav">
+                <nav>
+                    <ul class="listbar">
+                        <li><a href=${nextPage} target='_blank'>CONTINUE</a></li>
+                    </ul>
+                </nav>
+                <section class="textdiv">
+                    ${partial}
+                </section>
+            </section>
+        </main>
+    </body>
+</html>
